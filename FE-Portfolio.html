@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oyama — Cyberpunk Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="FE-Portfolio.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+ <header class="site-header">
+  <div class="container">
+    <h1 class="title glitch" data-text="">Oyama Selwyn Mama</h1>
+    <p class="subtitle">Web Designer <span class="arrow">→</span> Aspiring Full-Stack Engineer</p>
+    
+
+</header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-card neon-card reveal">
+          <h2>Hello 👋</h2>
+          <p>I build clean, fast, cyberpunk-flavoured experiences with HTML, CSS and JavaScript — then iterate with real users.</p>
+          <a class="btn btn-primary" href="#skills">View Skills</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- REASON FOR LEAVING -->
+    <section id="story" class="section">
+      <div class="container grid-2">
+        <div class="neon-card reveal">
+          <h3>Reason for leaving</h3>
+          <p>I began my career as a casual sales consultant at iStore, moved into a part-time position, and recently progressed into an operations & admin role. While I’ve gained valuable experience in operations and team coordination, I’m now ready to apply my technical skills — particularly in web design and development — to real-world projects within a professional environment.</p>
+          <p>My aim is not only to contribute as a web designer but to grow into a full-stack engineer within your firm, assisting multiple departments — from finance to operations — in driving innovation and improving efficiency through technology.</p>
+        </div>
+        <div class="neon-card accent reveal">
+          <h4 class="mono">Snapshot</h4>
+          <ul class="checklist">
+            <li>Operations & Admin foundation</li>
+            <li>Hands-on web projects</li>
+            <li>Full-stack growth path</li>
+            <li>Impact across departments</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section id="location" class="section">
+      <div class="container grid-2">
+        <div class="neon-card reveal">
+          <h3>Location</h3>
+          <p class="mono">20 Spicebush, Delft, Cape Town, Western Cape, South Africa (7100)</p>
+          <p class="small">For privacy you can render the precise pin at neighborhood level. Hover the map to zoom.</p>
+        </div>
+        <div class="map-wrap neon-card reveal">
+          <div class="map-embed">
+            <iframe title="Map — Delft" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=20%20Spicebush%2C%20Delft%2C%20Cape%20Town%2C%20Western%20Cape%2C%20South%20Africa%207100&output=embed">
+            </iframe>
+            <div class="map-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SALARY -->
+    <section id="salary" class="section">
+      <div class="container grid-3">
+        <div class="neon-card reveal">
+          <h3>Current salary</h3>
+          <div class="counter" data-target="10500">ZAR <span>0</span></div>
+          <p class="mono small">+ commission</p>
+        </div>
+        <div class="neon-card reveal accent">
+          <h3>Expected (min)</h3>
+          <div class="counter" data-target="15000">ZAR <span>0</span></div>
+        </div>
+        <div class="neon-card reveal">
+          <h3>Expected (top)</h3>
+          <div class="counter" data-target="18500">ZAR <span>0</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section id="languages" class="section">
+      <div class="container neon-card reveal">
+        <h3>Languages</h3>
+        <div class="skill">
+          <span>Xhosa</span>
+          <div class="bar" data-level="100"></div>
+        </div>
+        <div class="skill">
+          <span>Zulu</span>
+          <div class="bar" data-level="100"></div>
+        </div>
+        <div class="skill">
+          <span>English</span>
+          <div class="bar" data-level="100"></div>
+        </div>
+        <div class="skill">
+          <span>Afrikaans</span>
+          <div class="bar" data-level="50"></div>
+        </div>
+        <div class="skill">
+          <span>Sotho</span>
+          <div class="bar" data-level="70"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOTICE -->
+    <section id="notice" class="section">
+      <div class="container grid-2">
+        <div class="neon-card reveal">
+          <h3>Notice period</h3>
+          <p class="big">2 weeks</p>
+          <div class="timeline" data-days="14" aria-label="Two week timeline"></div>
+        </div>
+        <div class="neon-card reveal accent">
+          <h4>Live countdown (demo)</h4>
+          <p class="small">Starts at 14 days for preview purposes.</p>
+          <div class="countdown" data-seconds="1209600">
+            <div class="time"><span class="d">14</span><label>Days</label></div>
+            <div class="time"><span class="h">00</span><label>Hours</label></div>
+            <div class="time"><span class="m">00</span><label>Minutes</label></div>
+            <div class="time"><span class="s">00</span><label>Seconds</label></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="neon-card reveal">
+          <h3>Matric</h3>
+          <h5>Qaphelani Senior Secondary School</h5>
+          <p class="big mono">Completed: 2021</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRANSPORT -->
+    <section id="transport" class="section">
+      <div class="container grid-2">
+        <div class="neon-card reveal">
+          <h3>Transport</h3>
+          <p>I have access to both private and public transport. For set office days, I can rely on a friend for transport or company arrangements; on other days I use public transport. Schedules are communicated ahead of time to ensure reliability.</p>
+        </div>
+        <div class="neon-card reveal icons">
+          <div class="icon-row">
+            <div class="icon car" title="Private"></div>
+            <div class="icon bus" title="Public"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERVIEW AVAILABILITY -->
+    <section id="availability" class="section">
+      <div class="container grid-2">
+        <div class="neon-card reveal">
+          <h3>Interview availability</h3>
+          <p class="big">Monday — Wednesday</p>
+        </div>
+        <div class="neon-card calendar reveal" role="img" aria-label="Calendar with Monday-Wednesday highlighted">
+          <div class="day">Mon</div><div class="day">Tue</div><div class="day">Wed</div>
+          <div class="day off">Thu</div><div class="day off">Fri</div><div class="day off">Sat</div><div class="day off">Sun</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container grid-3">
+        <div class="neon-card reveal">
+          <h3>WordPress</h3>
+          <p class="small">Practical understanding from personal/collab projects; comfortable exploring efficient alternatives.</p>
+          <div class="bar" data-level="50"></div>
+        </div>
+        <div class="neon-card reveal accent">
+          <h3>HTML / CSS</h3>
+          <div class="bar" data-level="100"></div>
+          <div class="bar" data-level="100"></div>
+        </div>
+        <div class="neon-card reveal">
+          <h3>JavaScript</h3>
+          <div class="bar" data-level="90"></div>
+        </div>
+         <div class="neon-card reveal">
+          <h3>Java</h3>
+          <div class="bar" data-level="50"></div>
+        </div>
+         <div class="neon-card reveal">
+          <h3>Python</h3>
+          <div class="bar" data-level="65"></div>
+        </div>
+        <div class="neon-card reveal">
+          <h3>Flask</h3>
+          <div class="bar" data-level="75"></div>
+        </div>
+        <div class="neon-card reveal">
+          <h3>Django</h3>
+          <div class="bar" data-level="75"></div>
+        </div>
+         <div class="neon-card reveal">
+          <h3>Node.js</h3>
+          <div class="bar" data-level="75"></div>
+        </div>
+         <div class="neon-card reveal">
+          <h3>React.js</h3>
+          <div class="bar" data-level="45"></div>
+        </div>
+         <div class="neon-card reveal">
+          <h3>SQL</h3>
+          <div class="bar" data-level="90"></div>
+        </div>
+        <div class="neon-card reveal">
+          <h3>Github</h3>
+          <div class="bar" data-level="75"></div>
+        </div>
+        <div class="neon-card reveal">
+          <h3>Wordpress</h3>
+          <div class="bar" data-level="45"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UI/UX APPROACH -->
+    <section id="approach" class="section">
+      <div class="container neon-card reveal">
+        <h3>Approach to UI/UX</h3>
+        <p>My approach begins with understanding the vision of the person who assigned the project. I collaborate to define goals, brand colors and the aesthetic. Then I present multiple <em>distinct</em> mock-ups — enough to offer meaningful choices without overwhelm. After alignment, I translate the chosen direction into a polished, usable interface with crisp implementation.</p>
+      </div>
+    </section>
+
+    <!-- SEO Section -->
+<section id="seo" class="section" aria-label="SEO Overview">
+  <div class="container grid-2">
+    
+    <!-- Main SEO Info Card -->
+    <div class="neon-card reveal seo-info">
+      <h2>SEO</h2>
+      <p>
+        ~2.5 years building websites with structured markup, metadata, and 
+        performance-first CSS/JS so design and SEO support each other.
+      </p>
+    </div>
+
+    <!-- Mini Stats Card -->
+    <aside class="neon-card reveal accent mini-stats">
+      <div class="stat-item" data-stat="Meta">
+        <span class="stat-title">Meta</span>
+        <span class="stat-desc">Titles · Descriptions · OpenGraph</span>
+      </div>
+      <div class="stat-item" data-stat="Structure">
+        <span class="stat-title">Structure</span>
+        <span class="stat-desc">Headings · Landmarks · Sitemaps</span>
+      </div>
+      <div class="stat-item" data-stat="Perf">
+        <span class="stat-title">Perf</span>
+        <span class="stat-desc">Lighthouse-minded CSS/JS</span>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+    <!-- ADS -->
+<section id="ads" class="section">
+  <div class="container grid-2">
+    <div class="neon-card reveal">
+      <h3>HTML5 banners · GIFs · Digital ads</h3>
+      <p>~2.5 years producing lightweight ad assets and motion pieces.</p>
+    </div>
+    <div class="neon-card reel reveal">
+      <div class="reel-item">
+        <img src="https://picsum.photos/400/410" alt="Random Ad Image">
+      </div>
+      <div class="reel-item">
+        <img src="https://picsum.photos/400/415" alt="Random Ad Image">
+      </div>
+      <div class="reel-item">
+        <img src="https://picsum.photos/400/400" alt="Random Ad Image">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- COLLAB -->
+    <section id="collab" class="section">
+      <div class="container grid-2">
+        <div class="neon-card reveal">
+          <h3>Collaboration</h3>
+          <p>Extensive collaboration with clients to capture vision and translate it into a working product. I’m keen to deepen collaboration with developers — starting in a front-end capacity to learn workflows and communication styles — with a path toward back-end/full-stack contributions while aligning with company culture.</p>
+        </div>
+        <div class="neon-card reveal flow">
+          <div class="node">Client</div>
+          <div class="node">Content</div>
+          <div class="node">Design</div>
+          <div class="node">Dev</div>
+          <svg class="wires" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M10,20 C150,20 250,80 390,80" />
+            <path d="M10,60 C150,60 250,120 390,120" />
+            <path d="M10,100 C150,100 250,160 390,160" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERENCES -->
+<section id="references" class="section">
+  <div class="container grid-2">
+    <div class="neon-card reveal">
+      <h3>Reference</h3>
+      <p class="small">Justin Mentoor — Main Operations Manager (iStore)</p>
+      <p class="mono">Email: justin.mentoor@istore.co.za</p>
+    </div>
+    <div class="neon-card reveal accent">
+      <h3>Reference</h3>
+      <p class="small">Josh Umar — Chief Technical Officer (Debtwyze)</p>
+      <p class="mono">Email: josh.umar18gmail.com</p>
+    </div>
+  </div>
+  
+</section>
+
+<section id="references" class="section">
+  <div class="container grid-2">
+    <div class="neon-card reveal">
+      <h3>Contact Details</h3>
+      <p class="mono">Email 1: oyamamama01@gmail.com</p>
+      <p class="mono">Email 2: oyama.mama@istore.co.za</p>
+      <p class="mono">Cell: +27 63 808 5908</p>
+    </div>
+  </div>
+  
+</section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Oyama Selwyn Mama</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="FE-Portfolio.js"></script>
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const sidebar = document.querySelector('.sidebar');
+
+  hamburger.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });
+
+  // Optional: close sidebar when clicking a link
+  document.querySelectorAll('.sidebar a').forEach(link => {
+    link.addEventListener('click', () => {
+      sidebar.classList.remove('active');
+    });
+  });
+</script>
+
+</body>
+</html>
